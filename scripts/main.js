@@ -79,15 +79,10 @@ var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  var buffer = "", stack1, helper, functionType="function", escapeExpression=this.escapeExpression;
+  
 
 
-  buffer += "<div class=\"row\">\n  <div class=\"columns small-push-4 small-4 text-center\">\n    <div>An<br><strong><a href=\"#\">";
-  if (helper = helpers.org) { stack1 = helper.call(depth0, {hash:{},data:data}); }
-  else { helper = (depth0 && depth0.org); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
-  buffer += escapeExpression(stack1)
-    + "</a></strong><br>Project</div>\n  </div>\n  <div class=\"columns small-4\">\n    <ul class=\"inline-list right animate\">\n      <li><a href=\"#\">De</a></li>\n      <li><a href=\"#\">cK</a></li>\n    </ul>\n  </div>\n</div>\n";
-  return buffer;
+  return "<div class=\"row\">\n  <div class=\"columns small-push-4 small-4 text-center\">\n    <div>A<br><strong><a href=\"#\">Gregarious Pony</a></strong><br>Project</div>\n  </div>\n  <div class=\"columns small-4\">\n    <ul class=\"inline-list right animate\">\n      <li><a href=\"#\">Support</a></li>\n      <li><a href=\"#\">Privacy Policy</a></li>\n    </ul>\n  </div>\n</div>\n";
   });
 
 },{"hbsfy/runtime":26}],7:[function(require,module,exports){
@@ -96,15 +91,10 @@ var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  var buffer = "", stack1, helper, functionType="function", escapeExpression=this.escapeExpression;
+  
 
 
-  buffer += "<div class=\"row\">\n  <div class=\"columns col12\">\n    <ul class=\"no-bullet\">\n      <li class=\"title animate\"><a href=\"#\">Deck</a></li>\n      <ul class=\"menu no-bullet\">\n        <li class=\"animate\"><a href=\"#\">";
-  if (helper = helpers.user) { stack1 = helper.call(depth0, {hash:{},data:data}); }
-  else { helper = (depth0 && depth0.user); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
-  buffer += escapeExpression(stack1)
-    + "</a></li>\n      </ul>\n    </ul>\n  </div>\n</div>\n\n";
-  return buffer;
+  return "<div class=\"row\">\n  <div class=\"columns col12\">\n    <ul class=\"no-bullet\">\n      <li class=\"title animate\"><a href=\"#\">I'm Free</a></li>\n      <ul class=\"menu no-bullet\">\n        <li class=\"animate\"><a href=\"#\">Coming soon to your favourite mobile app store</a></li>\n      </ul>\n    </ul>\n  </div>\n</div>\n\n";
   });
 
 },{"hbsfy/runtime":26}],8:[function(require,module,exports){
@@ -116,7 +106,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<div class=\"row v-height-full\">\n  <div class=\"columns large-12 hide-small-only v-align-center\">\n\n    <h2 class=\"text-center\">Framework</h2>\n    <p class=\"text-center quiet\"> -- scroll -- </p>\n\n  </div>\n</div>\n";
+  return "<div class=\"row v-height-full\">\n  <div class=\"columns large-12 hide-small-only v-align-center\">\n    <center>\n\n    <p class=\"blackfont\"> The best way to find people to do activities with </p>\n    <!-- <h2 class=\"text-center\">Framework</h2> -->\n    <iframe src=\"https://player.vimeo.com/video/140224033?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0\" width=\"250\" height=\"443\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n\n    <iframe src=\"https://player.vimeo.com/video/140223745?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0\" width=\"250\" height=\"443\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\n\n    \n\n\n  </center>\n    <!-- <p class=\"text-center quiet\"> -- scroll -- </p> -->\n\n  </div>\n</div>\n";
   });
 
 },{"hbsfy/runtime":26}],9:[function(require,module,exports){
@@ -128,7 +118,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<div class=\"row v-height-full\">\n  <div class=\"columns large-12 v-align-center\">\n\n    <p>Deck is a single page app design framework with scroll-based navigation.</p>\n    <p>Look Mom, no <a href=\"http://bost.ocks.org/mike/scroll/\">scroll jacking</a>.</p>\n    <p>View the code <a href=\"https://github.com/jameslaneconkling/deck\">here</a>.</p>\n\n  </div>\n</div>\n\n";
+  return "<div class=\"row v-height-full\">\n  <div class=\"columns large-12 v-align-center\">\n\n    <p>Enter what you want to do. See what others want to do. See what others like. Instantly find someone to hang out with.</p>\n    <center>\n      <iframe src=\"https://player.vimeo.com/video/140223937?autoplay=1&loop=1&color=ffffff&title=0&byline=0\" width=\"250\" height=\"443\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\n    </center>\n<!--     <p>Look Mom, no <a href=\"http://bost.ocks.org/mike/scroll/\">scroll jacking</a>.</p>\n    <p>View the code <a href=\"https://github.com/jameslaneconkling/deck\">here</a>.</p>\n -->\n  </div>\n</div>\n\n";
   });
 
 },{"hbsfy/runtime":26}],10:[function(require,module,exports){
@@ -140,7 +130,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<div class=\"row v-height-full\">\n  <div class=\"columns large-12 v-align-center\">\n\n    <h2 class=\"text-center\">Page 2</h2>\n\n  </div>\n</div>\n\n";
+  return "<div class=\"row v-height-full\">\n  <div class=\"columns large-12 v-align-center\">\n\n    <!-- <h2 class=\"text-center\"></h2> -->\n    <center>\n    <p>Have more fun doing activities with people you have something in common with.</p>\n\n<!--     <p>Current most popular activities: </p>\n    <p>Coffee</p>\n    <p>Drinking</p>\n    <p>Biking</p>\n    <p>Eating</p> -->\n  </center>\n\n  </div>\n</div>\n\n";
   });
 
 },{"hbsfy/runtime":26}],11:[function(require,module,exports){
@@ -152,7 +142,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<div class=\"row v-height-full\">\n  <div class=\"columns large-12 v-align-center\">\n\n    <h2 class=\"text-center\">Page 3</h2>\n\n  </div>\n</div>\n\n";
+  return "<div class=\"row v-height-full\">\n  <div class=\"columns large-12 v-align-center\">\n\n    <!-- <h2 class=\"text-center\">Page 3</h2> -->\n    <center>\n    <p>Geo location optimised to find the people closest to you.</p>\n    </center>\n\n\n\n\n\n  </div>\n</div>\n\n";
   });
 
 },{"hbsfy/runtime":26}],12:[function(require,module,exports){
@@ -164,7 +154,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<div class=\"row v-height-full\">\n  <div class=\"columns large-12 v-align-center\">\n\n    <h2 class=\"text-center\">Page 4</h2>\n\n  </div>\n</div>\n\n";
+  return "<div class=\"row v-height-full\">\n  <div class=\"columns large-12 v-align-center\">\n\n    <!-- <h2 class=\"text-center\"></h2> -->\n    <center>\n    <p>Coming soon to your favourite mobile app store</p>\n    <p></p>\n    <p></p>\n    <p>For enquiries and support: contact imfreeiomail@gmail.com</p>\n    </center>\n\n\n  </div>\n</div>\n\n";
   });
 
 },{"hbsfy/runtime":26}],13:[function(require,module,exports){
@@ -176,7 +166,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<div class=\"row v-height-full\">\n  <div class=\"columns large-12 v-align-center\">\n\n    <h2 class=\"text-center\">Page 5</h2>\n\n  </div>\n</div>\n\n";
+  return "<div class=\"row v-height-full\">\n  <div class=\"columns large-12 v-align-center\">\n\n    <!-- <h2 class=\"text-center\">Page 5</h2> -->\n    <center>\n    <p>The Creators.<p>\n      <p></p>\n\n    <p><a href=\"https://github.com/jameslaneconkling\">James Conkling</a>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    <a href=\"https://github.com/linalu1/\">Lina Lu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    <a href=\"https://github.com/oshaikh13/\">Omar Shaikh</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    <a href=\"https://github.com/reneloperena/\">Rene Loperena</a>\n\n\n    </p>\n   </center>\n\n\n  </div>\n</div>\n\n";
   });
 
 },{"hbsfy/runtime":26}],14:[function(require,module,exports){
